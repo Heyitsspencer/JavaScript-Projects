@@ -16,3 +16,7 @@ document.write("<br>");
 document.write("<br>");
 var B="Concatenated" + "String"
 document.write(B);
+document.write("<br>");
+document.write("<br>");
+var Dog="Murphy", Cat="Mirabelle", Lizard="Alfredo"
+document.write(Dog)
