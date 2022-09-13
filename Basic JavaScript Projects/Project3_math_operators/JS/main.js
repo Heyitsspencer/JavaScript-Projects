@@ -26,3 +26,10 @@ function negation_Operator() {
     var x=10
     document.getElementById("Math6").innerHTML=-x;
 }
+var y= 10
+y++
+document.write(y);
+var z=5
+z--
+document.write(z);
+window.alert(Math.random()*500);
