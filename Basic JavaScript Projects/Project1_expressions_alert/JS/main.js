@@ -23,3 +23,10 @@ document.write(Dog)
 document.write("<br>");//Page break
 document.write("<br>");//Page break
 document.write(5+5);//Expression
+document.write("<br>");//Page break
+document.write("<br>");//Page break
+var sent1= "This is the begining of the string.";
+var sent2= "This is the end of the string.";
+document.write(sent1 + sent2);
+document.write("<br>");//Page break
+document.write("<br>");//Page break
