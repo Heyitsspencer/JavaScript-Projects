@@ -15,6 +15,10 @@ function multiplication_Function() {
     document.getElementById("Math3").innerHTML= multiplication;
 }
 function more_Math() {
-    var extramath= (1+2)*10/2-5;
-    document.getElementById("math4").innerHTML= extramath;
+    var extra_math= (1+2)*10/2-5;
+    document.getElementById("Math4").innerHTML= extra_math;
+}
+function more_Math1() {
+    var simple_math= 25%6;
+    document.getElementById("Math5").innerHTML= "When you divide 25 by 6, you have a remainder of: "+ simple_math;
 }
