@@ -5,6 +5,6 @@ function my_Dictionary1() {
         Breed:"Labrador",
         Age:7,
         Sound:"Meow!"
-    }
+    };
+    document.getElementById("Dictionary").innerHTML=Animals.Sound;
 }
-document.getElementById("Dictionary").innerHTML = Animals.Age;
