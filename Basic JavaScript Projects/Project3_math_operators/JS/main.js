@@ -22,3 +22,7 @@ function more_Math1() {
     var simple_math= 25%6;
     document.getElementById("Math5").innerHTML= "When you divide 25 by 6, you have a remainder of: "+ simple_math;
 }
+function negation_Operator() {
+    var x=10
+    document.getElementById("Math6").innerHTML=-x;
+}
