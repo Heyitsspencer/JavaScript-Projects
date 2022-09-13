@@ -30,3 +30,7 @@ var sent2= "This is the end of the string.";
 document.write(sent1 + sent2);
 document.write("<br>");//Page break
 document.write("<br>");//Page break
+function My_First_Function() {
+    var string="This is the button text.";
+    document.getElementById("Button_Text").innerHTML=str;
+}
