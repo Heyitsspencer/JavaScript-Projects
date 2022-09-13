@@ -1,4 +1,4 @@
-function my_Dictionary(){
+function my_Dictionary1(){
     var Pet= {
         species: "Cat",
         color: "White",
@@ -7,4 +7,4 @@ function my_Dictionary(){
         sound: "meow!"
     }
 }
-document.getElementById("Dictionary").innerHTML= Pet.Age;
+document.getElementById("Dictionary").innerHTML= Pet.sound
