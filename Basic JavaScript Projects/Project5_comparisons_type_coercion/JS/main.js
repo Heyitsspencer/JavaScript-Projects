@@ -15,3 +15,5 @@ document.write(1>10);
 document.write(1<10);
 console.log(2+2);
 console.log(2<0);
+document.write(10==10);
+document.write(10==12);
