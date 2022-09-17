@@ -13,3 +13,5 @@ document.write(2E310);
 document.write(-3E310);
 document.write(1>10);
 document.write(1<10);
+console.log(2+2);
+console.log(2<0);
