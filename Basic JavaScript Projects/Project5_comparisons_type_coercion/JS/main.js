@@ -29,3 +29,13 @@ document.write(E===F);
 G=40
 H=50
 document.write(G===H);
+document.write(5>2 && 10>4);
+document.write(5<2 && 7<8);
+document.write(5>2 || 5<2);
+document.write(3>8 || 8>12);
+function not_Function() {
+    document.getElementById("Not").innerHTML=!(20>10);
+}
+function not_Function1() {
+    document.getElementById("Not1").innerHTML=!(20<10);
+}
