@@ -1,1 +1,2 @@
-document.write(typeof "Mirabelle")
+document.write(typeof "Word");
+document.write("10"+5);
