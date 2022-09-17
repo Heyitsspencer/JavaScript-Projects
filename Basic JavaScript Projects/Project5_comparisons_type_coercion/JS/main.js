@@ -17,3 +17,15 @@ console.log(2+2);
 console.log(2<0);
 document.write(10==10);
 document.write(10==12);
+A=10
+B=10
+document.write(A===B);
+C=20
+D="21"
+document.write(C===D);
+E=30
+F="30"
+document.write(E===F);
+G=40
+H=50
+document.write(G===H);
