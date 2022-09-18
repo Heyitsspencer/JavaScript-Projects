@@ -16,11 +16,17 @@ function Vehicle(Make, Model, Year, Color) { //Vehicle function
     this.Vehicle_Year= Year;
     this.Vehicle_Color= Color;
 }
-var Jack= new Vehicle("Dodge", "Viper", 2020, "Red");
+var Jack= new Vehicle("Dodge", "Viper", 2020, "Red"); // New keywords
 var Emily= new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");
 var Erik= new Vehicle("Ford", "Pinto", 1971, "Mustard");
 function myFunction() {
     document.getElementById("Keywords_and_Constructors").innerHTML=
     "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model +
     " manufactured in " + Erik.Vehicle_Year;
+}
+var Spencer= new Vehicle("Mitsubishi", "Mirage g4", 2017, "Black"); //New Keyword assignment
+function new_Function() {
+    document.getElementById("New_and_This").innerHTML=
+    "Spencer drives a " + Spencer.Vehicle_Color + "-colored " + Spencer.Vehicle_Model +
+    " manufactured in " + Spencer.Vehicle_Year;
 }
