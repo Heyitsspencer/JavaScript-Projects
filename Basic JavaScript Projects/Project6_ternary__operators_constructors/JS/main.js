@@ -30,3 +30,14 @@ function new_Function() {
     "Spencer drives a " + Spencer.Vehicle_Color + "-colored " + Spencer.Vehicle_Model +
     " manufactured in " + Spencer.Vehicle_Year;
 }
+function Person(first, last, age, eye) {
+    this.firstName= first;
+    this.lastName= last;
+    this.age= age;
+    this.eyeColor= eye;
+}
+var Spencer= new Person("Spencer", "Davis", 18, "Hazel");
+function my_Function() {
+    document.getElementById("Constructor").innerHTML=
+    "Spencers last name is " + Spencer.lastName + ". They are " + Spencer.age + " years old.";
+}
