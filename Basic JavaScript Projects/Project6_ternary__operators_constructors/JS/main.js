@@ -41,3 +41,12 @@ function my_Function() {
     document.getElementById("Constructor").innerHTML=
     "Spencers last name is " + Spencer.lastName + ". They are " + Spencer.age + " years old.";
 }
+function count_Function() { //Nested Function Assignment
+    document.getElementById("Counting").innerHTML= Count();
+    function Count() {
+        var Starting_point= 9;
+        function Plus_one() {Starting_point += 1}
+        Plus_one();
+        return Starting_point;
+    }
+}
