@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\mmcmi\\OneDrive\\Documents\\School\\JavaScript-Projects\\Basic JavaScript Projects\\Project4_dictionaries\\index.html"
+            "file": "C:\\Users\\mmcmi\\OneDrive\\Documents\\School\\JavaScript-Projects\\Basic JavaScript Projects\\Project6_ternary__operators_constructors\\index.html"
         }
     ]
 }
