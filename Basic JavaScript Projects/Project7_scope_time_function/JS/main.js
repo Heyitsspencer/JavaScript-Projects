@@ -35,13 +35,13 @@ function Age_of_User_Function() { //Age_of_User_Function
 function Time_function() { //Time_Function
     var Time= new Date().getHours();
     var Reply;
-    if (Time < 12 == Time > 0) {
+    if (Time < 12 == Time > 0) { //If statement
         Reply= "It is morning time!";
     }
-    else if (Time >= 12 == Time < 18) {
+    else if (Time >= 12 == Time < 18) { //Else if statement
         Reply= "It is afternoon.";
     }
-    else {
+    else { //Else statement
         Reply= "It is evening time.";
     }
     document.getElementById("Time_of_day").innerHTML= Reply;
