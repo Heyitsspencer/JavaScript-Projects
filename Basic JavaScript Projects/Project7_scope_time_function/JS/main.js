@@ -13,7 +13,12 @@ function Add_numbers_3() {
     document.write(20 + X + "<br>");
 }
 function Add_numbers_4() { //ERROR- will not work because it is a local variable
-    document.write(Y + 100);
+    console.log(Y + 100);
 }
 Add_numbers_3();
 Add_numbers_4();
+function get_Date() { // Get Date function
+    if (new Date() .getHours() < 18) { //If statement
+        document.getElementById("Example").innerHTML="How are you today?"; //.getElementById method
+    }
+}
