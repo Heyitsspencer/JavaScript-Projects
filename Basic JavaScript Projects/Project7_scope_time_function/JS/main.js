@@ -23,12 +23,12 @@ function get_Date() { // Get Date function
     }
 }
 function Age_of_User_Function() {
-    Age= document.getElementById("Age").value; 
-    if (Age >= 18) {
-        vote="You are of voting age!";
+    Age= document.getElementById("Drink").value; 
+    if (Age >= 21) {
+        drink="You are of drinking age!";
     }
     else {
-        vote="You are not of voting age.";
+        drink="You are not of drinking age.";
     }
-    document.getElementById("Age_of_User").innerHTML= vote
+    document.getElementById("Age_of_User").innerHTML= drink
 }
