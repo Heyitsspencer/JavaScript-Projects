@@ -22,3 +22,13 @@ function get_Date() { // Get Date function
         document.getElementById("Example").innerHTML="How are you today?"; //.getElementById method
     }
 }
+function Age_of_User_Function() {
+    Age= document.getElementById("Age").value; 
+    if (Age>= 18) {
+        vote="You are of voting age!";
+    }
+    else {
+        vote="You are not of voting age";
+        document.getElementById("Age_of_User").innerHTML= vote
+    }
+}
