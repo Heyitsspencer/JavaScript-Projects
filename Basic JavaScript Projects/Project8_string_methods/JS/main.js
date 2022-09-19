@@ -16,3 +16,8 @@ function uppercase_Method() { //toUppercase ASSIGNMENT
     let result = text.toUpperCase();
     document.getElementById("Uppercase").innerHTML = result;
 }
+function search_Method() { //SEARCH METHOD ASSIGNMENT
+    let text = "Mirabelle and Diamond are the best kitties I've met!";
+    let position = text.search("Mirabelle");
+    document.getElementById("Search1").innerHTML = position;
+}
