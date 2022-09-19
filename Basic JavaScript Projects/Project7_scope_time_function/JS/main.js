@@ -32,7 +32,7 @@ function Age_of_User_Function() { //Age_of_User_Function
     }
     document.getElementById("Age_of_User").innerHTML= drink
 }
-function Time_function() {
+function Time_function() { //Time_Function
     var Time= new Date().getHours();
     var Reply;
     if (Time < 12 == Time > 0) {
