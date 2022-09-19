@@ -1,4 +1,4 @@
-function Sentence_Function() {
+function Sentence_Function() { //CONCATENATION ASSIGNMENT
     var part1 = "You are reading ";
     var part2 = "a sentence ";
     var part3 = "that is complete. ";
