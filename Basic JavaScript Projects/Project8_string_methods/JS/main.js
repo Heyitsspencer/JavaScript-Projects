@@ -21,3 +21,7 @@ function search_Method() { //SEARCH METHOD ASSIGNMENT
     let position = text.search("Mirabelle");
     document.getElementById("Search1").innerHTML = position;
 }
+function String_Method() { //toString METHOD ASSIGNMENT
+    var X = 182;
+    document.getElementById("Numbers_to_strings").innerHTML = X.toString();
+}
