@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "C:\\Users\\mmcmi\\OneDrive\\Documents\\School\\JavaScript-Projects\\Basic JavaScript Projects\\Project7_scope_time_function\\index.html"
+            "file": "C:\\Users\\mmcmi\\OneDrive\\Documents\\School\\JavaScript-Projects\\Basic JavaScript Projects\\Project8_string_methods\\index.html"
         }
     ]
 }
