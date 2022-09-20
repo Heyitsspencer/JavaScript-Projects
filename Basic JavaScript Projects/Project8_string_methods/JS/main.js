@@ -27,5 +27,5 @@ function string_Method() { //toString METHOD ASSIGNMENT
 }
 function toPrecisionFunction() { //toPrecision METHOD ASSIGNMENT
     var Y = 12345678910.1112131415
-    document.getElementById("toPrecision1").innerHTML = Y.toPrecision(5);
+    document.getElementById("toPrecision1").innerHTML = Y.toPrecision(10);
 }
