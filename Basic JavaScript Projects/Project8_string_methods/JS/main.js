@@ -34,3 +34,8 @@ function toFixedFunction() { //toFixed METHOD ASSIGNMENT
     let n= num.toFixed();
     document.getElementById("toFixed1").innerHTML = n;
 }
+function valueOfMethod() { //valueOf METHOD ASSIGNMENT
+    let number = 15;
+    let numb = number.valueOf();
+    document.getElementById("valueOf1");
+}
