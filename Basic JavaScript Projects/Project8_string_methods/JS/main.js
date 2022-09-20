@@ -37,5 +37,5 @@ function toFixedFunction() { //toFixed METHOD ASSIGNMENT
 function valueOfMethod() { //valueOf METHOD ASSIGNMENT
     let number = 15;
     let numb = number.valueOf();
-    document.getElementById("valueOf1");
+    document.getElementById("valueOf1").innerHTML = numb;
 }
