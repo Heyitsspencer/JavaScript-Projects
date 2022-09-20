@@ -1,4 +1,4 @@
-function countdown() {
+function countdown() { //TIMER ASSIGNMENT
     var seconds = document.getElementById("seconds").value;
 
     function tick() {
