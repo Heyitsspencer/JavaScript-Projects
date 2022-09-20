@@ -29,3 +29,8 @@ function toPrecisionFunction() { //toPrecision METHOD ASSIGNMENT
     var Y = 12345678910.1112131415
     document.getElementById("toPrecision1").innerHTML = Y.toPrecision(10);
 }
+function toFixedFunction() { //toFixed METHOD ASSIGNMENT 
+    let num = 5.6789;
+    let n= num.toFixed();
+    document.getElementById("toFixed1").innerHTML = n;
+}
