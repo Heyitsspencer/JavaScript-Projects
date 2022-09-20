@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "C:\\Users\\mmcmi\\OneDrive\\Documents\\School\\JavaScript-Projects\\Basic JavaScript Projects\\Project9_countdown_slideshow\\index.html"
+            "file": "C:\\Users\\mmcmi\\OneDrive\\Documents\\School\\JavaScript-Projects\\Basic JavaScript Projects\\Project10_loops_array\\index.html"
         }
     ]
 }
