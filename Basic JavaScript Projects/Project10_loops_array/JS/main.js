@@ -68,3 +68,12 @@ let car = {
     }
 };
 document.getElementById("Spencers_Car").innerHTML = car.description();
+//Break loop
+let text ="";
+let i = 0;
+while (i<5) {
+    text += i + "<br>";
+    i++; //increase i
+    if (i===3) break;
+}
+document.getElementById("break_loop").innerHTML = text;
