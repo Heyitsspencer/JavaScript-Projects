@@ -22,7 +22,7 @@ function for_Loop() { //For Loop Function
     }
     document.getElementById("List_of_Animals").innerHTML = Content;
 }
-function array_Function() {
+function array_Function() { //Array Function
     var Color = [];
     Color[1] = "Red";
     Color[2] = "Orange";
