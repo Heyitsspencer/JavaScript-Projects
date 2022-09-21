@@ -55,3 +55,14 @@ document.write(Y); //Will write 20
     document.write("<br>" + Y);//Will write 30
 }
 document.write("<br>" + Y); //Will write 30
+
+function let_function() {
+    var X = 50;
+    document.write(X); //Will write 50
+    {
+        let X= 100;
+        document.write("<br>" + X); //Will write 100
+    }
+    document.write("<br>" + X); //Will result 50 
+    document.getElementById("Let").innerHTML = X;
+}
