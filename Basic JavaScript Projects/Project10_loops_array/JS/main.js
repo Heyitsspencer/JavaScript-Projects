@@ -39,3 +39,19 @@ function constant_function() { //Constant function
     Pets.color = "white with grey spots" //Changed a value
     document.getElementById("Constant").innerHTML = "The Pets name is " + Pets.name + " and she is a " + Pets.type;
 }
+//Let keyword
+var X = 50;
+document.write(X); //Will write 50
+{
+    let X= 100;
+    document.write("<br>" + X); //Will write 100
+}
+document.write("<br>" + X); //Will result 50
+
+var Y = 20;
+document.write(Y); //Will write 20
+{
+    var Y = 30;
+    document.write("<br>" + Y);//Will write 30
+}
+document.write("<br>" + Y); //Will write 30
