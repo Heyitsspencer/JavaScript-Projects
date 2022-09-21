@@ -35,6 +35,6 @@ function array_Function() { //Array Function
 function constant_function() { //Constant function
     const Pets = {type: "cat", color: "white", age: "7"};
     Pets.behavior = "sleeping";
-    Pets.name = Mirabelle;
+    Pets.name = "Mirabelle";
     document.getElementById("Constant").innerHTML = "The Pets name is " + Pets.name + " and she is a " + Pets.type;
 }
