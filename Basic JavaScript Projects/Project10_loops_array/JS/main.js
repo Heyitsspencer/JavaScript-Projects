@@ -77,3 +77,11 @@ while (i<5) {
     if (i===3) break;
 }
 document.getElementById("break_loop").innerHTML = text;
+
+//Continue Loop
+let words ="";
+for (let e = 0; e < 5; e++) {
+    if (e === 3) continue; //will skip over 3 
+    words += e + "<br>";
+}
+document.getElementById("continue_loop").innerHTML = words;
