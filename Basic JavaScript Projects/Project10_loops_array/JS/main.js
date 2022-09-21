@@ -57,3 +57,14 @@ document.getElementById("Return1").innerHTML = return_Function("John");
 function return_Function(name) {
     return "Hello " + name;
 }
+//Object Assignment
+let car = { 
+    make: "Mitsubishi ",
+    model: "Mirage g4 ",
+    year: "2017",
+    color: "black",
+    description: function() {
+        return "The car is a " + this.year + this.color + this.make + this.model;
+    }
+};
+document.getElementById("Spencers_Car").innerHTML = car.description();
