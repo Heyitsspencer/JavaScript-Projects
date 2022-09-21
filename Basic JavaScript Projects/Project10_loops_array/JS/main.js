@@ -51,3 +51,9 @@ function let_function() {
     document.write("<br>" + X); //Will result 50 
     document.getElementById("Let").innerHTML = X;
 }
+
+//Return function
+document.getElementById("Return1").innerHTML = return_Function("John"); 
+function return_Function(name) {
+    return "Hello " + name;
+}
