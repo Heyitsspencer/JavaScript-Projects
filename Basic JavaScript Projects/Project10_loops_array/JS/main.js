@@ -22,3 +22,13 @@ function for_Loop() { //For Loop Function
     }
     document.getElementById("List_of_Animals").innerHTML = Content;
 }
+function array_Function() {
+    var Color = [];
+    Color[1] = "Red";
+    Color[2] = "Orange";
+    Color[3] = "Yellow";
+    Color[4] = "Green";
+    Color[5] = "Blue";
+    Color[6] = "Purple";
+    document.getElementById("Array").innerHTML = "The color is: " + Color[6] + ".";
+}
