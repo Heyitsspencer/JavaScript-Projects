@@ -37,5 +37,11 @@ function Hello_World_Function() {
     var A = document.getElementsByClassName("Click");
     A[0].innerHTML = "The text has changed!";
 }
-
 //End document.getElementByClassName() Method assignment
+
+//Start <Canvas> element (Add text)
+var c = document.getElementById("ID_Name");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("Hello World", 10, 50);
+//End <Canvas> element (Add text)
