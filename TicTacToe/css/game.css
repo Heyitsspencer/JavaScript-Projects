@@ -1,0 +1,9 @@
+/*This container includes our table and our canvas.*/
+.center-container {
+    /*This property sets the width of our container.*/
+    width: 608px;
+    /*This property centers our container*/
+    margin: 0 auto;
+    /*50px down from the top*/
+    margin-top: 50px;
+}
