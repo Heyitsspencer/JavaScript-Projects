@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "C:\\Users\\mmcmi\\OneDrive\\Documents\\School\\JavaScript-Projects\\JavaScript Projects\\HTML_1.html"
+            "file": "C:\\Users\\mmcmi\\OneDrive\\Documents\\School\\JavaScript-Projects\\JavaScript Projects\\HTML_2.html"
         }
     ]
 }
