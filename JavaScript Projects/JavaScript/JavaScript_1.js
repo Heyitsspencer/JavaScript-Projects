@@ -39,21 +39,22 @@ function Hello_World_Function() {
 }
 //End document.getElementByClassName() Method assignment
 
+//Start <Canvas> element (Add Gradient)
+var c = document.getElementById("ID_Name");
+var ctx = c.getContext("2d");
+
+var my_gradient = ctx.createLinearGradient(0, 0, 170, 0);
+my_gradient.addColorStop(0, "black");
+my_gradient.addColorStop(0.5, "blue");
+my_gradient.addColorStop(1, "purple");
+
+ctx.fillStyle = my_gradient;
+ctx.fillRect(0, 0, 500, 500);
+//End <Canvas> element (Add Gradient)
+
 //Start <Canvas> element (Add text)
 var c = document.getElementById("ID_Name");
 var ctx = c.getContext("2d");
 ctx.font = "30px Arial";
 ctx.fillText("Hello World", 10, 50);
 //End <Canvas> element (Add text)
-
-//Start <Canvas> element (Add Gradient)
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-
-var grd = ctx.createLinearGradient(0, 0, 170, 0);
-grd.addColorStop(0, "black");
-grd.addColorStop(1, "white");
-
-ctx.fillStyle = grd;
-ctx.fillRect(20, 20, 150, 100);
-//End <Canvas> element (Add Gradient)
