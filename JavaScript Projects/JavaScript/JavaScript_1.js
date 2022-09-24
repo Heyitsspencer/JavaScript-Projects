@@ -53,8 +53,7 @@ ctx.fillRect(0, 0, 500, 500);
 //End <Canvas> element (Add Gradient)
 
 //Start <Canvas> element (Add text)
-var c = document.getElementById("ID_Name");
-var ctx = c.getContext("2d");
+ctx.fillStyle = "#999";
 ctx.font = "30px Arial";
 ctx.fillText("Hello World", 10, 50);
 //End <Canvas> element (Add text)
