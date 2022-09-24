@@ -8,7 +8,7 @@
 </head>
 <body>
     <div><!--Start contact form-->
-        <form name="myForm">
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname"><br>
             <label for="lname">Last name:</label><br>
@@ -18,5 +18,6 @@
             <input type="submit">
           </form>
     </div><!--End contact form-->
+
 </body>
 </html>
