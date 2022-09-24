@@ -6,6 +6,20 @@
         <script src="./JavaScript/JS/JavaScript_3.js" defer></script>
     </head>
     <body>
-        
+        <div> <!--Data Attribute Assignment-->
+            <h1>Pets</h1>
+            <h3>Click on a name to see what type of animal they are!</h3>
+
+            <ul>
+                <li onclick="displayType (this)" id="Cat1"
+                data-pet-type="Mirabelle">Cat</li>
+                <li onclick="displayType (this)" id="Cat2"
+                data-pet-type="Diamond">Cat</li>
+                <li onclick="displayType (this)" id="Dog"
+                data-pet-type="Murphy">Dog</li>
+                <li onclick="displayType (this)" id="Turtle"
+                data-pet-type="Pip">Turtle</li>
+            </ul>
+        </div>
     </body>
 </html>
