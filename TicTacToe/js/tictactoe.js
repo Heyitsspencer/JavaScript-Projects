@@ -14,11 +14,11 @@ function placeXorO(squareNumber) {
         //This condition checks who's turn it is.
         if (activePlayer === 'X') {
             //If activePlayer is equal to 'X', the x.png is placed in HTML
-            select.style.backgroundImage = ("../images/x.png");
+            select.style.backgroundImage = 'url("./images/x.png")';
             //Active player may only be 'X' or 'O' so, if not 'X' it must be 'O'
         } else {
             //If activePlayer is equal to 'O', the o.png is placed in HTML
-            select.style.backgroundImage = ("../images/o.png");
+            select.style.backgroundImage = 'url("./images/o.png")';
         }
         //This function parses the selectedSquares aaray to search for win conditions. 
         //drawline() function is called to draw a line on the screen if the condition is met.
@@ -59,7 +59,7 @@ function placeXorO(squareNumber) {
             //9 squares are selected the code executes.
             else if (selectedSquares.length >= 9) {
                 //This function plays the tie game sound
-                Audio('../media/tie.mp3');
+                audio('../media/tie.mp3');
                 //This function sets a .3 second timer before the resetGame is called
                 setTimeout(function () {resetGame(); }, 500);
             }
@@ -92,7 +92,7 @@ function placeXorO(squareNumber) {
         }
 
         //This function plays placement sound
-        Audio('../media/place.mp3');
+        ('../media/place.mp3');
         //This condition checks to see if it is the computers turn.
         if (activePlayer === 'O') {
             //This function disables clicking for the computers turn.
@@ -122,4 +122,19 @@ function placeXorO(squareNumber) {
             };
         }
     }
+}
+//This function makes our body element temporarily unclickable.
+function disableClick() {
+    //This makes our body unclickable
+    body.style.pointerEvents = 'none';
+    //This makes our body clickable again after 1 second
+    setTimeout(function () { body.style.pointerEvents = 'auto'; }, 1000);
+}
+//This function takes a string parameter of the path you set earlier for 
+//placement sound('../media/place.mp3')
+function audio(audioURL) {
+    //We create a new audio object and we pass the path as a parameter.
+    let audio = new Audio(audioURL);
+    //Play method plays our audio sound
+    audio.play();
 }
