@@ -1,3 +1,4 @@
+//Start Animal list 
 function Animal_Function() {
     var Animal_Output;
     var Animals = document.getElementById("Animal_Input").value;
@@ -29,3 +30,12 @@ function Animal_Function() {
     } 
     document.getElementById("Output").innerHTML = Animal_Output;
 }
+//End animal list
+
+//Start document.getElementByClassName() Method assignment
+function Hello_World_Function() {
+    var A = document.getElementsByClassName("Click");
+    A[0].innerHTML = "The text has changed!";
+}
+
+//End document.getElementByClassName() Method assignment
