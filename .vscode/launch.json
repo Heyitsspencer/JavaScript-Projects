@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "C:\\Users\\mmcmi\\OneDrive\\Documents\\School\\JavaScript-Projects\\Calculator\\calculator.html"
+            "file": "C:\\Users\\mmcmi\\OneDrive\\Documents\\School\\JavaScript-Projects\\Pizza_Project\\pizza.html"
         }
     ]
 }
