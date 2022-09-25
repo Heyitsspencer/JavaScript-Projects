@@ -14,11 +14,11 @@ function placeXorO(squareNumber) {
         //This condition checks who's turn it is.
         if (activePlayer === 'X') {
             //If activePlayer is equal to 'X', the x.png is placed in HTML
-            select.style.backgroundImage = 'url("./images/x.png")';
+            select.style.backgroundImage = 'url("./images/newx.png")';
             //Active player may only be 'X' or 'O' so, if not 'X' it must be 'O'
         } else {
             //If activePlayer is equal to 'O', the o.png is placed in HTML
-            select.style.backgroundImage = 'url("./images/o.png")';
+            select.style.backgroundImage = 'url("./images/newo.png")';
         }
         //This function parses the selectedSquares aaray to search for win conditions. 
         //drawline() function is called to draw a line on the screen if the condition is met.
@@ -59,7 +59,7 @@ function placeXorO(squareNumber) {
             //9 squares are selected the code executes.
             else if (selectedSquares.length >= 9) {
                 //This function plays the tie game sound
-                audio('../media/tie.mp3');
+                audio('../media/newtie.m4a');
                 //This function sets a .3 second timer before the resetGame is called
                 setTimeout(function () {resetGame(); }, 500);
             }
