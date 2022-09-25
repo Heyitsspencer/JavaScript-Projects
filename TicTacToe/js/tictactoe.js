@@ -204,7 +204,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
         }
         //This line disallows clicking while the win sound is playing
         disableClick();
-        audio('../media/winGame.mp3');
+        audio('../media/newwinGame.wav');
         //This line calls our main animation loop.
         animateLineDrawing();
         //This line waits 1 second. Then clears canvas, resets game, an allows clicking again.
